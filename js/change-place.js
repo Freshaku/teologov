@@ -6,6 +6,7 @@ $(window).on("scroll", function(){
     // $('.teoperson').css( "top", "111rem" );
     // $('.teoperson').css( "left", "40rem" );
 		$('.header').css("position", "absolute");
+		// $('.header').css("background-color", "transparent");
 		$('.teoperson').css( "animation", "move-teo-b 10s 1" );
 		$('.teoperson').css( "animation-iteration-count", "1" );
 		$('.bg__mask_person').css( "animation", "move-bg-b 10s 1" );
@@ -27,6 +28,7 @@ $(window).on("scroll", function(){
 	} else {
 		console.log('прокрутили вверх');
 		$('.header').css("position", "fixed");
+		// $('.header').css("background-color", "#1D1E21");
     // $('.teoperson').css( "top", "27.813rem" );
     // $('.teoperson').css( "left", "22.875rem" );
 		$('.teoperson').css( "animation", "move-teo-t 10s 1" );
@@ -42,11 +44,14 @@ $(window).on("scroll", function(){
 		$('.b12').css( "top", "-7rem" );
 		$('.b13').css( "top", "-5rem" );
 		// setTimeout(() => {
-			$('.b5').css( "position", "absolute" );
-			$('.b12').css(  "position", "absolute"  );
-			$('.b13').css(  "position", "absolute"  );
+			// $('.b5').css( "position", "absolute" );
+			// $('.b12').css(  "position", "absolute"  );
+			// $('.b13').css(  "position", "absolute"  );
 		// }, 2000);
 	}
+	// if(scrollNow === scrollTop) {
+	// 	$('.header').css("background-color", "transparent");
+	// }
 	scrollTop = scrollNow;
 })
 

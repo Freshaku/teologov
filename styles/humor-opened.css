@@ -369,8 +369,8 @@ body {
   .header-burger {
     display: block;
     position: absolute;
-    top: 30px;
-    right: 17px;
+    top: 15px;
+    right: -20px;
     z-index: 30;
     width: 80px;
     height: 80px;
@@ -458,6 +458,7 @@ body {
     height: 100%;
     align-items: flex-start;
     margin-left: 1.8rem;
+    margin-top: 17rem;
   }
 
   .menu-list {

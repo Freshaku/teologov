@@ -19,6 +19,15 @@
   font-style: normal;
 }
 
+input, textarea {
+  border: none;
+}
+
+input:active, input:hover, input:focus, textarea:active, textarea:hover, textarea:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +55,7 @@ body {
 .header__menu {
   display: flex;
   width: 100%;
+  height: 120px;
 }
 
 .menu-left {
@@ -54,7 +64,6 @@ body {
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  height: 100px;
   background: #1D1E21;
 }
 
@@ -65,7 +74,6 @@ body {
   justify-content: center;
   list-style-type: none;
   background: #333BF9;
-  height: 100px;
 }
 
 .menu-link {
@@ -130,11 +138,12 @@ body {
   margin-bottom: 2.9rem;
   font-size: 2.4rem;
   line-height: 3.1rem;
+  margin-top: 2rem;
 }
 
 .form-input::placeholder {
   color: #C4C4C4;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 3.1rem;
 }
 
@@ -154,6 +163,7 @@ body {
   font-size: 2.4rem;
   line-height: 3.1rem;
   padding: 1rem 2rem;
+  margin-top: 2rem;
 }
 
 .right-side {
@@ -213,6 +223,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 10.5rem;
+  margin-bottom: 50%;
 }
 
 .m-contact {
@@ -307,7 +318,7 @@ body {
   }
 
   .form-input::placeholder {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2.6rem;
   }
 
@@ -368,8 +379,8 @@ body {
   .header-burger {
     display: block;
     position: absolute;
-    top: 30px;
-    right: 17px;
+    top: 15px;
+    right: -20px;
     z-index: 30;
     width: 80px;
     height: 80px;
@@ -520,7 +531,7 @@ body {
   }
 
   .social-contacts {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
 }
 
@@ -536,7 +547,7 @@ body {
   }
 
   .contact {
-    margin-right: 5rem;
+    margin-right: 16rem;
   }
 
   .end-contact {
@@ -564,6 +575,36 @@ body {
   }
 }
 
+@media (max-width: 760px) {
+  .contact {
+    margin-right: 10rem;
+  }
+
+  .end-contact {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 570px) {
+  .contact {
+    margin-right: 6rem;
+  }
+
+  .end-contact {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact {
+    margin-right: 3rem;
+  }
+
+  .end-contact {
+    margin-right: 0;
+  }
+}
+
 @media (max-width: 410px) {
   .contact {
     margin-right: 1rem;
@@ -575,5 +616,15 @@ body {
 
   .social-contacts {
     width: 90%;
+  }
+}
+
+@media (max-width: 300px) {
+  .contact {
+    margin-right: 0rem;
+  }
+
+  .end-contact {
+    margin-right: 0;
   }
 }

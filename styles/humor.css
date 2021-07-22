@@ -202,7 +202,7 @@ body {
 
 .about-video__title {
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 3.2rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
@@ -384,7 +384,7 @@ body {
 
   .about-video__title {
     font-size: 2.4rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
   }
 
   #arrow {
@@ -467,32 +467,44 @@ body {
   }
 
   .video-long-container {
-    height: 30rem;
+    height: 28rem;
   }
 
   .about-video__title {
-    font-size: 2.4rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
   }
 
   .about-video__description {
-    font-size: 1.8rem;
-    line-height: 2rem;
-    height: 11rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    height: 10rem;
   }
 
-  
-  .about-video-item__description {
-    font-size: 2.4rem;
-    line-height: 2.4rem;
+  #arrow {
+    width: 8rem;
+    height: 8rem;
   }
+
+  .humor-container__title {
+    top: 10rem;
+    height: 6rem;
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .last-title {
+    top: -9rem;
+  }
+
 
   .menu-link{
     font-size: 2rem;
   }
 
   .small-video-card, .about-video-item {
-    height: 22rem;
+    height: 20rem;
   }
 
   .about-video-item__description {
@@ -508,7 +520,7 @@ body {
 
   .about-video__title {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
     margin-bottom: 1rem;
   }
 
@@ -552,7 +564,75 @@ body {
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1310px){
+  .video-long-container {
+    height: 23rem;
+  }
+
+  .about-video {
+    padding: 1rem;
+  }
+
+  .about-video__title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-video__description {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    height: 10rem;
+  }
+
+  .about-video__text {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  #arrow {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .humor-container__title {
+    top: 8rem;
+    height: 6rem;
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+
+  .last-title {
+    top: -8rem;
+  }
+
+  .small-video-card, .about-video-item {
+    height: 17rem;
+  }
+
+  .about-video-item {
+    padding: 1rem;
+  }
+
+  .about-video-footer {
+    margin-top: 2rem;
+  }
+
+  .about-video-item__description {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .humor-container__title, .last-title {
+    left: 7rem;
+  }
+
+  .menu-list {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
   .header__menu {
     display: none;
   }
@@ -564,8 +644,8 @@ body {
   .header-burger {
     display: block;
     position: absolute;
-    top: 30px;
-    right: 17px;
+    top: 15px;
+    right: -20px;
     z-index: 30;
     width: 80px;
     height: 80px;
@@ -653,6 +733,7 @@ body {
     height: 100%;
     align-items: flex-start;
     margin-left: 1.8rem;
+    margin-top: 17rem;
   }
 
   .menu-list {
@@ -676,7 +757,7 @@ body {
   }
 
   .small-video-card, .about-video-item {
-    height: 29rem;
+    height: 24rem;
   }
 
   .small-video-card {
@@ -699,7 +780,7 @@ body {
 
   .video-long-container {
     flex-direction: column;
-    height: 55rem;
+    height: 47rem;
     align-items: center;
   }
 
@@ -733,7 +814,7 @@ body {
 
   .about-video__title {
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 3.2rem;
   }
 
   .about-video__description {
@@ -763,6 +844,16 @@ body {
   .small-video-card, .about-video-item {
     height: 36rem;
   }
+
+  .filter__text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .filter-arrow {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -772,6 +863,11 @@ body {
 
   .about-video-footer {
     margin-top: 12rem;
+  }
+
+  #play {
+    width: 4rem;
+    height: 4rem;
   }
 }
 
@@ -802,12 +898,12 @@ body {
 
 @media (max-width: 400px) {
   .small-video-card, .about-video-item {
-    height: 19rem;
+    height: 14rem;
   }
 
   .about-video-item__description {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
 
   .about-video-footer {
@@ -815,28 +911,28 @@ body {
   }
 
   .about-video__title {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
 
   .about-video__description {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
   }
 
   .video-long-container {
-    height: 48rem;
+    height: 41rem;
   }
 
   .filter__text {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
+/* 
   #filter-arrow {
     width: 1.3rem;
     height: 1.3rem;
-  }
+  } */
 
   .filter {
     margin-right: 1rem;
