@@ -10,5 +10,5 @@
 // })
 
 $('.circle').click(function(){
-  $(this).toggleClass('circle_active').siblings().removeClass('circle_active');;
+  $(this).toggleClass('circle_active').siblings().removeClass('circle_active');
 });

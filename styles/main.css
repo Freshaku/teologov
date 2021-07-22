@@ -947,7 +947,7 @@ nav {
   cursor: pointer;
 }
 
-.block_two .block_rewards .content .balls_year .circle .text {
+.block_two .block_rewards .content .balls_year .circle .circle_text {
   width: 21.25rem;
   text-align: center;
   display: none;
@@ -1125,10 +1125,25 @@ nav {
   color: #fff;
 }
 
-.block_two .block_rewards .content .balls_year .circle_active .text {
+.block_two .block_rewards .content .balls_year .circle_active .circle_text {
   display: block;
+  opacity: 0;
   font-size: 1.5rem;
   color: #fff;
+  animation: showText 1s 1 ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showText {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .block_two .block_rewards .content .balls_year .circle_active .black-text {
